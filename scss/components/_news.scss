@@ -1,0 +1,15 @@
+#news {
+  .news-cards {
+    .news-card {
+      border-right: 1px solid $red;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .content-wrapper {
+        padding: 10px;
+      }
+    }
+  }
+}

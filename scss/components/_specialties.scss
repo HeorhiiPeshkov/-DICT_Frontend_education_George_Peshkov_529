@@ -1,0 +1,7 @@
+#specialties {
+  .cards-wrapper {
+    .card {
+      @include card;
+    }
+  }
+}
