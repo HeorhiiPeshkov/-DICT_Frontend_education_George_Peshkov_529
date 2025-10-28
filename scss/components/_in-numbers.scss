@@ -1,0 +1,12 @@
+#in-numbers {
+  .cards-wrapper {
+    .card {
+      padding: 10px;
+      border-right: 1px solid $red;
+
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+#feedbacks {
+  .cards-wrapper {
+    .card {
+      @include card;
+    }
+  }
+}
