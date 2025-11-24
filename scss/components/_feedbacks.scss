@@ -1,7 +1,17 @@
 #feedbacks {
   .cards-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+
     .card {
       @include card;
+      background: $dark-grey;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+
+      audio {
+        width: 100%;
+      }
     }
   }
 }

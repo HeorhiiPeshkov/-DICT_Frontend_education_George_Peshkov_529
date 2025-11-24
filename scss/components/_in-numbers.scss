@@ -1,11 +1,25 @@
 #in-numbers {
+  background: $dark-grey;
+  border-radius: 30px;
+  padding: 40px;
+
   .cards-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 20px;
+
     .card {
-      padding: 10px;
+      padding: 10px 20px;
       border-right: 1px solid $red;
 
       &:last-child {
         border-right: none;
+      }
+
+      .value {
+        font-size: 2rem;
+        font-weight: 700;
+        margin: 0;
       }
     }
   }
