@@ -2,279 +2,271 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name ="viewport">
-    <title>Homepage | Department of information and Communication Technologies</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICT | Кафедра інформаційно-комунікаційних технологій</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<header>
-    <nav>
-        <ul>
-            <li style="text-align: center"> <a href="#specialities">Спеціальності</a></li>
-            <li style="text-align: center"> <a href="#science">Наука</a></li>
-            <li style="text-align: center"> <a href="#news">Новини</a></li>
-            <li style="text-align: center"> <a href="#contact">Контакти</a></li>
-        </ul>
-    </nav>
-    <img src="images/boy%202.png" alt="Створюй майбутнє" width="300">
-    <section>
-        <div id="greetings">
-            <h1>
-                Створюй майбутнє! Тут і зараз!
-            </h1>
-            <h3>
-                Вибери не просто освіту - обери шлях до свого технологічного майбутнього! Кафедра ІКТ ХАІ - це місце, де ідеї стають реальністю, а знання відкривають двері до кар’єри мії. Почни свій шлях вже сьогодні!
-            </h3>
+<header class="site-header">
+    <div class="topbar">
+        <a class="logo" href="/" aria-label="Кафедра ІКТ ХАІ">
+            <img src="images/Logo.svg" alt="DICT" width="104" height="48">
+        </a>
+        <nav class="main-nav" aria-label="Головна навігація">
+            <ul class="main-menu" role="list">
+                <li class="menu-item"><a class="menu-link" href="#specialties">Спеціальності</a></li>
+                <li class="menu-item"><a class="menu-link" href="#science">Наука</a></li>
+                <li class="menu-item"><a class="menu-link" href="#news">Новини</a></li>
+                <li class="menu-item"><a class="menu-link" href="#contact">Контакти</a></li>
+                <li class="menu-item"><a class="menu-link" href="grid.html">Grid Layout</a></li>
+            </ul>
+        </nav>
+        <button class="search" type="button" aria-label="Пошук"></button>
+        <div class="lang" aria-label="Перемикач мови">
+            <ul class="lang-wrapper" role="list">
+                <li class="lang-item ua"><a class="lang-link is-active" href="#" lang="uk">UA</a></li>
+                <li class="lang-item en"><a class="lang-link" href="#" lang="en">EN</a></li>
+            </ul>
         </div>
-    </section>
+    </div>
 </header>
-<main>
-    <section>
-        <div id="spechialities">
-            <h2 id="specialities" style="text-align: center;">Наші спеціальності</h2>
-            <h4 style="text-align: center">
-                Ми спеціалізуємось на підготовці фахівців в області мережевих, програмних та інформаційних технологій за двома напрямками 172 - Електронні комунікації та радіотехніка і 126 - Інформаційні системи та технології
-            </h4>
+<section id="banner">
+    <div class="content-wrapper">
+        <p class="eyebrow">Кафедра інформаційно-комунікаційних технологій</p>
+        <h1>Створюй майбутнє. Тут і зараз!</h1>
+        <div class="description">
+            <p>Вибери не просто освіту — обери шлях до свого технологічного майбутнього! Кафедра ІКТ ХАІ — це місце, де ідеї стають реальністю, а знання відкривають двері до кар’єри мрії. Почни свій шлях вже сьогодні!</p>
         </div>
-    </section>
-    <section>
-        <div id="card_126">
-            <h2>
-                126
-            </h2>
-            <h3>
-                "Інформаційні системи і технології"
-            </h3>
-        </div>
-        <div id="card_172">
-            <h2>
-                172
-            </h2>
-            <h3>
-                "Електронні комунікаці та радіотехніка"
-            </h3>
-        </div>
-        <div id="if_in_numbers">
-            <h2>
-                Якщо в числах
-            </h2>
-            <h3>
-                18 65 1200+ ∞
-            </h3>
-            <h3>
-                Досвідчених викладачів Навчальних дисциплін талановитих випускників Унікального досвіду
-            </h3>
-        </div>
-    </section>
-    <section>
-        <div id="classes field">
-            <table>
-                <tr>
-                    <th>1 семестр</th>
-                    <th>Кредити</th>
-                </tr>
-                <tr>
-                    <td>Мовні компетентності (іноземна мова)</td>
-                    <td>3.00</td>
-                </tr>
-                <tr>
-                    <td>Українські студії</td>
-                    <td>3.00</td>
-                </tr>
-                <tr>
-                    <td>Правова компетентність (на вибір)</td>
-                    <td>3.00</td>
-                </tr>
-                <tr>
-                    <td>Вища математика</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <td>Дискретна математика</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <td>Основи інфокомунікацій</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <td>Програмування на Python</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <th>2 семестр</th>
-                    <th>Кредити</th>
-                </tr>
-                <tr>
-                    <td>Iноземна мова</td>
-                    <td>3.00</td>
-                </tr>
-                <tr>
-                    <td>Формування системного наукового світогляду (за вибором)</td>
-                    <td>3.00</td>
-                </tr>
-                <tr>
-                    <td>Основи теорії кіл</td>
-                    <td>4.00</td>
-                </tr>
-                <tr>
-                    <td>Вища математика</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <td>Фізика</td>
-                    <td>5.00</td>
-                </tr>
-                <tr>
-                    <td>Алгоритми і структури даних</td>
-                    <td>4.00</td>
-                </tr>
-                <tr>
-                    <td>Програмування на Python</td>
-                    <td>4.50</td>
-                </tr>
-                <tr>
-                    <td>Навчальна практика</td>
-                    <td>3.00</td>
-                </tr>
-            </table>
-        </div>
-        <div id="information">
-            <p>
-                Перший предмет "Основи інфокомунікацій" розповість про цілі навчання освітньої програми, сучасні тенденції в інфокомунікаціях і інформаційних технологіях,
-                можливості і варіанти вашого розвитку. Як і в усьому ХАІ, студент формує свою власну навчальну траєкторію вже на 1-му курсі за допомогою дисциплін за вибором:
-                "Іноземна мова", "Українські студії", "Гуманітарна або економічна дисципліна за вибором" і "Правова компетентність за вибором".
-                Вони розвивають у студентів так звані "м'які" навички (Soft Skills) і полегшують весь процес навчання.
-                Фундаментальні курси "Вища математика", "Дискретна математика", "Фізика" формують основу для вивчення подальших прикладних курсів.
-                "Основи теорії кіл" почнуть знайомство з електронікою в цілому. Паралельно з розвитком м'яких навичок і формуванням фундаменту для технічної частини, ми посилено
-                викладаємо студентам програмування. В "Основах програмування" вивчається мова програмування Python, інтегровані середовища розробки,
-                системи контролю версій, різні бібліотеки і інструменти. Python панує як мова програмування в даній освітній програмі і практично у всьому навчальному процесі. "
-                Алгоритми і структури даних" також розширюють знання і розвивають навички в програмуванні як розробника мережевих додатків, так і систем обробки даних. "Навчальна
-                практика" присвячується вивченню операційних систем на базі ядра Linux, що є основою для більшості інформацийних систем.
-            </p>
-        </div>
-    </section>
-    <section>
-        <div id="reviews">
-            <img src="images/Logo.svg" alt="Лого">
-            <h3>
-                Відгук 1 Відгук 2 Відгук 3
-            </h3>
-            <audio controls>
-                <source src="images/file_example_MP3_700KB.mp3" type="audio/mpeg">
-            </audio>
-        </div>
-    </section>
-    <section>
-        <div id="science_and_innovations">
-            <img src="images/Science.png" alt="Наука і інновації">
-        </div>
-        <div id="companies">
-            <h2 style="text-align: center">
-                Нам довіряють
-            </h2>
-            <p align="center">
-                <img src="images/nix.svg" alt="nix">
-                <img src="images/sigma.svg" alt="sigma">
-                <img src="images/gl.svg" alt="gl">
-                <img src="images/epam.svg" alt="epam">
-            </p>
-            <p align="center">
-                <img src="images/softserve.svg" alt="softserve">
-                <img src="images/dataart.svg" alt="dataart">
-            </p>
-        </div>
-    </section>
-    <section>
-        <div id="contact_information">
-            <h2 style="text-align: center" id="contact">
-                Контакти
-            </h2>
-            <h3 style="text-align: center">
-                61070, Харків, вул. Вадима Манька, 17 НАУ ім. М.Є.Жуковскього "ХAI" Кафедра інформаційно-комунікаційних технологій №504
-            </h3>
-            <h3>
-                Телефон Пошта
-            </h3>
-            <h3>
-                +38 (099) 502-57-75 k504@khai.edu
-            </h3>
-            <h4>
-                Номери телефону в будні дні з 9:00 до 17:00
-            </h4>
-            <h4>
-                Пошта для зв'язку
-            </h4>
-            <p>
-                <a href="mailto:k504@khai.edu"></a>
-            </p>
-            <p>
-                <a href="tel:+380995025775"></a>
-        </div>
-    </section>
-    <section>
-        <div id="social">
-            <h2 style="text-align: center"> Social</h2>
-            <p align="center">
-                <img src="images/telegram.svg" alt="telegram">
-                <img src="images/viber.svg" alt="viber">
-                <img src="images/fb.svg" alt="fb">
-                <img src="images/in.svg" alt="in">
-                <img src="images/instagram.svg" alt="inst">
-            </p>
-        </div>
-    </section>
-    <section>
-        <div id="nevvs">
-            <h2 id="news">Новини</h2>
-            <p align="center">
-                <img src="images/image.png" alt="img 1">
-                <img src="images/image%20(1).png" alt="img 2">
-                <img src="images/image%20(2).png" alt="img 3">
-                <video width="290" height="163" control controls poster="images/image%204.png">
-                    <source src="images/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
-                </video>
-            </p>
-            <h3 style="text-align: center">Заголовок новини 1 Заголовок новини 2 Заголовок новини 3 Заголовок новини 4</h3>
-            <h4 style="text-align: center">Новина 1 Новина 2 Новина 3 Новина 4</h4>
-        </div>
-    </section>
-</main>
-<footer>
-    <section>
-        <p>
-            61070, Харків, вул. Вадима Манька, 17 НАУ ім. М. Є. Жуковскього "ХАІ" Кафедра інформаційно-комунікаційних технологій №504
-        </p>
-        <img src="images/Logo.svg" alt="Лого">
-        <p>(C) 2025 All rights reserved</p>
-        <p align="center">
-            <img src="images/telegram.svg" alt="telegram">
-            <img src="images/viber.svg" alt="viber">
-            <img src="images/fb.svg" alt="fb">
-            <img src="images/in.svg" alt="in">
-            <img src="images/instagram.svg" alt="inst">
-        </p>
-        <p>
-            (057)-7650-43-52
-            k504@khai.edu
-        </p>
-    </section>
-</footer>
-<section>
-    <div id="Vstup field">
-        <fieldset>
-            <legend>Вступ 2025</legend>
-            <label>Ваше ім'я та прізвище<input type="text" required></label><br>
-            <label>Контактний телефон<input type="email" required></label><br>
-            <label>Телеграм<input type="email" required></label><br>
-            <label>Бали НМТ - Математика<input type="email" required></label><br>
-            <label>Бали НМТ - Українська мова<input type="email" required></label><br>
-            <label>Бали НМТ - Історія України<input type="email" required></label><br>
-            <label>Четвертий предмет НМТ і бали за ним<input type="email" required></label><br>
-            <label>Які напрями вам цікаві?<input type="email" required></label><br>
-        </fieldset>
+        <a class="button primary" href="#admission">Хочу поступити</a>
+    </div>
+    <div class="image-wrapper">
+        <img src="images/man.png" alt="Студент кафедри ІКТ" width="540" height="720" loading="lazy">
     </div>
 </section>
+<main>
+    <section id="specialties">
+        <div class="section-heading">
+            <p class="eyebrow">Вступ 2025</p>
+            <h2>Наші спеціальності</h2>
+            <p>Готуємо фахівців з програмних та інформаційних технологій за державними стандартами. Обирай спеціальність, що відповідає твоїм амбіціям.</p>
+        </div>
+        <div class="cards-wrapper">
+            <article class="card">
+                <p class="code">126</p>
+                <h3>Інформаційні системи і технології</h3>
+                <p>Системне проєктування, розробка програмних продуктів та робота з даними.</p>
+            </article>
+            <article class="card">
+                <p class="code">172</p>
+                <h3>Електронні комунікації та радіотехніка</h3>
+                <p>Мережі зв’язку, захист інформації та апаратні рішення для інфраструктури.</p>
+            </article>
+        </div>
+    </section>
+    <section id="in-numbers">
+        <div class="section-heading">
+            <p class="eyebrow">Наші переваги</p>
+            <h2>DICT у цифрах</h2>
+        </div>
+        <div class="cards-wrapper">
+            <article class="card">
+                <p class="value">18</p>
+                <p>Досвідчених викладачів</p>
+            </article>
+            <article class="card">
+                <p class="value">65</p>
+                <p>Навчальних дисциплін</p>
+            </article>
+            <article class="card">
+                <p class="value">1200+</p>
+                <p>Талановитих випускників</p>
+            </article>
+            <article class="card">
+                <p class="value">∞</p>
+                <p>Можливостей розвитку</p>
+            </article>
+        </div>
+    </section>
+    <section id="study-plan">
+        <div class="section-heading">
+            <p class="eyebrow">Освітня траєкторія</p>
+            <h2>Перші два семестри</h2>
+        </div>
+        <div class="plan-wrapper">
+            <table>
+                <caption>1 семестр</caption>
+                <thead>
+                    <tr><th>Дисципліна</th><th>Кредити</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Мовні компетентності (іноземна мова)</td><td>3.0</td></tr>
+                    <tr><td>Українські студії</td><td>3.0</td></tr>
+                    <tr><td>Правова компетентність (за вибором)</td><td>3.0</td></tr>
+                    <tr><td>Вища математика</td><td>5.0</td></tr>
+                    <tr><td>Дискретна математика</td><td>5.0</td></tr>
+                    <tr><td>Основи інфокомунікацій</td><td>5.0</td></tr>
+                    <tr><td>Програмування на Python</td><td>5.0</td></tr>
+                </tbody>
+            </table>
+            <table>
+                <caption>2 семестр</caption>
+                <thead>
+                    <tr><th>Дисципліна</th><th>Кредити</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Іноземна мова</td><td>3.0</td></tr>
+                    <tr><td>Формування системного наукового світогляду</td><td>3.0</td></tr>
+                    <tr><td>Основи теорії кіл</td><td>4.0</td></tr>
+                    <tr><td>Вища математика</td><td>5.0</td></tr>
+                    <tr><td>Фізика</td><td>5.0</td></tr>
+                    <tr><td>Алгоритми і структури даних</td><td>4.0</td></tr>
+                    <tr><td>Програмування на Python</td><td>4.5</td></tr>
+                    <tr><td>Навчальна практика</td><td>3.0</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="description">
+            <p>Паралельно з розвитком soft skills, студенти занурюються в фундаментальні дисципліни та отримують потужну практику програмування на Python, роботу з алгоритмами й операційними системами.</p>
+        </div>
+    </section>
+    <section id="feedbacks">
+        <div class="section-heading">
+            <p class="eyebrow">Відгуки</p>
+            <h2>Що кажуть студенти</h2>
+        </div>
+        <div class="cards-wrapper">
+            <article class="card">
+                <h3>Олександр, студент 2 курсу</h3>
+                <p>«Найбільше ціную практичні заняття та менторську підтримку під час командних проєктів.»</p>
+                <audio controls preload="none">
+                    <source src="images/file_example_MP3_700KB.mp3" type="audio/mpeg">
+                    Ваш браузер не підтримує аудіо.
+                </audio>
+            </article>
+            <article class="card">
+                <h3>Наталія, випускниця</h3>
+                <p>«На кафедрі я отримала першу пропозицію стажування ще на 3 курсі. Сьогодні працюю в продуктовій компанії.»</p>
+                <audio controls preload="none">
+                    <source src="images/file_example_MP3_700KB.mp3" type="audio/mpeg">
+                    Ваш браузер не підтримує аудіо.
+                </audio>
+            </article>
+        </div>
+    </section>
+    <section id="science">
+        <div class="science-wrapper">
+            <img src="images/Science.png" alt="Наукові лабораторії кафедри" loading="lazy">
+            <div class="text">
+                <p class="eyebrow">Наука та інновації</p>
+                <h2>Дослідження та стартапи</h2>
+                <p>Студенти долучаються до наукових гуртків, працюють з сучасними лабораторіями та запускають власні продукти за підтримки викладачів.</p>
+            </div>
+        </div>
+    </section>
+    <section id="partners">
+        <div class="section-heading">
+            <p class="eyebrow">Індустріальні партнери</p>
+            <h2>Нам довіряють</h2>
+        </div>
+        <div class="logo-grid">
+            <img src="images/nix.svg" alt="NIX">
+            <img src="images/sigma.svg" alt="Sigma">
+            <img src="images/gl.svg" alt="GlobalLogic">
+            <img src="images/epam.svg" alt="EPAM">
+            <img src="images/softserve.svg" alt="SoftServe">
+            <img src="images/dataart.svg" alt="DataArt">
+        </div>
+    </section>
+    <section id="contact">
+        <div class="section-heading">
+            <p class="eyebrow">Як нас знайти</p>
+            <h2>Контакти</h2>
+        </div>
+        <div class="contact-grid">
+            <div>
+                <h3>Адреса</h3>
+                <p>61070, Харків, вул. Вадима Манька, 17<br>НАУ ім. М. Є. Жуковського «ХАІ», кафедра №504</p>
+            </div>
+            <div>
+                <h3>Зв’язок</h3>
+                <p><a href="tel:+380995025775">+38 (099) 502-57-75</a><br>
+                <a href="mailto:k504@khai.edu">k504@khai.edu</a></p>
+                <p>Будні дні: 09:00 — 17:00</p>
+            </div>
+        </div>
+    </section>
+    <section id="social">
+        <div class="section-heading">
+            <p class="eyebrow">Будь онлайн</p>
+            <h2>Соцмережі</h2>
+        </div>
+        <div class="icon-row">
+            <img src="images/telegram.svg" alt="Telegram">
+            <img src="images/viber.svg" alt="Viber">
+            <img src="images/fb.svg" alt="Facebook">
+            <img src="images/in.svg" alt="LinkedIn">
+            <img src="images/instagram.svg" alt="Instagram">
+        </div>
+    </section>
+    <section id="news">
+        <div class="section-heading">
+            <p class="eyebrow">Останні події</p>
+            <h2>Новини кафедри</h2>
+        </div>
+        <div class="news-cards">
+            <article class="news-card">
+                <img src="images/image.png" alt="Хакатон DICT" loading="lazy">
+                <div class="content-wrapper">
+                    <h3>DICT Hackathon</h3>
+                    <p>Студенти першого курсу створили MVP освітнього сервісу за 24 години.</p>
+                </div>
+            </article>
+            <article class="news-card">
+                <img src="images/image (1).png" alt="Лабораторія" loading="lazy">
+                <div class="content-wrapper">
+                    <h3>Нова лабораторія зв’язку</h3>
+                    <p>Відкрили оновлену лабораторію з сучасним мережевим обладнанням.</p>
+                </div>
+            </article>
+            <article class="news-card">
+                <img src="images/image (2).png" alt="Студенти" loading="lazy">
+                <div class="content-wrapper">
+                    <h3>Освітній серіал</h3>
+                    <p>Запущено курс відеолекцій з основ радіотехніки та Python.</p>
+                </div>
+            </article>
+            <article class="news-card">
+                <video controls preload="none" poster="images/image 4.png">
+                    <source src="images/file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+                    Ваш браузер не підтримує відео.
+                </video>
+                <div class="content-wrapper">
+                    <h3>День відкритих дверей</h3>
+                    <p>Подивись коротке відео з останньої зустрічі з абітурієнтами.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <section id="admission">
+        <div class="section-heading">
+            <p class="eyebrow">Вступ 2025</p>
+            <h2>Залиш заявку</h2>
+        </div>
+        <form class="admission-form">
+            <label>Ваше ім'я та прізвище<input type="text" name="fullName" required></label>
+            <label>Контактний телефон<input type="tel" name="phone" required></label>
+            <label>Телеграм<input type="text" name="telegram" required></label>
+            <label>Бали НМТ – Математика<input type="number" name="math" min="100" max="200" required></label>
+            <label>Бали НМТ – Українська мова<input type="number" name="ukrainian" min="100" max="200" required></label>
+            <label>Бали НМТ – Історія України<input type="number" name="history" min="100" max="200" required></label>
+            <label>Четвертий предмет НМТ та бали<input type="text" name="fourthSubject" required></label>
+            <label>Які напрями вам цікаві?<textarea name="interests" rows="3" required></textarea></label>
+            <button class="button primary" type="submit">Надіслати</button>
+        </form>
+    </section>
+</main>
+<footer class="site-footer">
+    <p>© 2025 Кафедра інформаційно-комунікаційних технологій ХАІ. Усі права захищено.</p>
+</footer>
 </body>
 </html>
