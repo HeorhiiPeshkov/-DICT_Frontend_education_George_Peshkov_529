@@ -29,3 +29,12 @@
     right: 0;
   }
 }
+
+@media (max-width: 796px) {
+  #banner {
+    .image-wrapper {
+      display: none;
+    }
+  }
+}
+
