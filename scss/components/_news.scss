@@ -1,0 +1,33 @@
+#news {
+  .news-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+
+    .news-card {
+      background: $dark-grey;
+      border-radius: 20px;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      border-right: 1px solid $red;
+
+      &:last-child {
+        border-right: none;
+      }
+
+      .content-wrapper {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      video {
+        width: 100%;
+        border-radius: 0;
+      }
+    }
+  }
+}
